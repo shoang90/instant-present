@@ -1,0 +1,450 @@
+
+@font-face {
+	font-family: "PersonalFont"; 	
+	src: url('font/Lalithabai.ttf');
+}
+
+@font-face2 {
+	font-family: "PersonalFont2"; 	
+	src: url('font/Quentin.ttf');
+}
+
+body {
+	font-family: Georgian, Arial, Helvetica, sans-serif;
+	min-height: 100vh;
+	position: relative;
+	background-color: white;
+}
+
+h1, h2, h3, h4 {
+	font-family: Colibri;
+}
+
+h1 {
+	font-size: 1em;
+	font-style: italic;
+}
+
+h2, h3 {
+	font-weight: bold;
+}
+
+p, ul li {
+	font-family: PersonalFont2;
+	font-style: normal;
+}
+
+ul {
+	list-style-type: circle;
+}
+
+strong {
+	font-weight: bold;
+	color: #d943bb;
+}
+
+.max-width {
+	max-width: 1300px;
+	margin: auto;
+}
+
+.anchor {
+	margin-top: -13vh;
+}
+
+/* .btn { */
+	/* background-color: lightblue; */
+	/* color: white; */
+/* } */
+
+/* .btn:hover { */
+	/* color: white; */
+	/* box-shadow: 0px 8px 6px 1px rgba(255, 29, 238, .2); */
+	/* box-shadow: 0px 8px 6px 1px lightgrey; */
+/* } */
+
+/* Header */
+
+header {
+	position: fixed;
+	top: 0;
+	z-index: 50;
+	width: 100%;
+	font-size: 1.1em;
+}
+
+#navHeader {
+	min-height: 10vh;
+	z-index: 60;
+	font-family: PersonalFont2;
+	background-color: #059fa8;
+}
+
+#navbarSupportedContent {
+	height: 10vh;
+	z-index: 60;
+}
+
+#navbarSupportedContent a {
+	padding-left: 5px;
+	height: 10vh;
+	line-height: 6vh;
+	z-index: 60;
+	color: white;
+	/* text-shadow: 0.1em 0.1em 0.2em black; */
+}
+
+#navbarSupportedContent a:hover {
+	/* color: #4491fc; */
+	color: #b2d7d9;
+}
+
+.nav-link {
+	color: white;
+}
+
+#banner {
+	position: relative;
+	min-height: 80vh;
+	min-width: 100%;
+	overflow: hidden;
+}
+
+#videoFrame {
+	width: 100%;
+	position: absolute;
+	bottom: -30%;
+}
+
+
+#bannerText {
+	position: absolute;
+	top: 47vh;
+	text-align: center;
+	width: 90%;
+	left: 5%;
+	font-size: 3.4em;
+	color: white;
+	text-shadow: 0.1em 0.1em 0.2em grey;
+}
+
+#bannerText2 {
+	position: absolute;
+	top: 60vh;
+	width: 90%;
+	left: 5%;
+	font-size: 2em;
+	text-align: center;
+	color: white;
+	font-family: Colibri;
+}
+
+
+/* Main */
+
+main {
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+main h2 {
+	font-style: italic;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 60px;
+}
+
+main h3 {
+	font-style: italic;
+	text-transform: uppercase;
+}
+
+main p {
+	display: block;
+	width: 70%;
+	margin: 30px auto 15px auto;
+	font-size: 1.1em;
+}
+
+main ul li {
+	display: block;
+	width: 70%;
+	margin: 30px auto 15px auto;
+	font-size: 1.1em;
+}
+
+
+#whatIsSophrology, #forWho{
+	padding: 0;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	background: white;
+}
+
+#whatIsSophrology h2, #whatIsSophrology h3, #forWho h2 {
+	color: #5c7d7d;
+}
+
+#whatIsSophrology p, #forWho p {
+	color: #5c7d7d;
+}
+
+/* accompaniment */
+
+#accompaniment {
+	padding-top: 60px;
+	padding-bottom: 60px;
+	background-color: white;
+}
+
+#accompaniment h2 {
+	color: #5c7d7d;
+	margin-bottom: 45px;
+}
+
+#accompaniment h3 {
+	color: #059fa8;	
+}
+
+#accompaniment img {
+	width: 100%;
+}
+
+#accompaniment p {
+	width: 100%;
+	margin: auto;
+	margin-top: 15px;
+	color: #5c7d7d;
+}
+
+#priceListBlock {
+	padding-top: 30px;
+	margin-top: 30px;
+}
+
+#priceListBlock h2 {
+	margin-bottom: 30px;
+	color: #5c7d7d;
+}
+
+#priceListBlock h3 {
+	margin-top: 60px;
+	margin-bottom: 30px;
+	color: #5c7d7d;
+}
+
+#priceListBlock p {
+	width: 100%;
+}
+
+/* benefits */
+
+#benefits, #forWhat {
+	padding: 0;
+	padding-bottom: 60px;
+	background-color: #059fa8;
+	color: white;
+}
+
+.card img{
+	opacity: .85;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.card:hover img {
+	opacity: 1;
+}
+
+#benefits h2 {
+	margin-bottom: 30px;
+}
+
+#subBenefits a:hover {
+	text-decoration: none;
+}
+
+#benefits .card:hover .card-body .card-title {
+	transition: .3s ease-in-out;
+	color: #059fa8;
+}
+#benefits .card .card-body .card-title {
+	color: #5c7d7d;
+}
+
+#forWhat {
+	padding-top: 60px;
+}
+
+#forWho {
+	background-image: url("images/beach.jpg");
+	background-size: cover;
+	color: white;
+}
+
+#forWho h2 {
+	margin-bottom: 30px;
+	color: white;
+	text-shadow: 0.1em 0.1em 0.2em grey;
+}
+
+#forWho p {
+	color: white;
+	text-shadow: 0.1em 0.1em 0.2em grey;
+}
+
+#forWho .card:hover .card-body .card-title {
+	transition: .3s ease-in-out;
+	color: #059fa8;
+}
+#forWho .card .card-body .card-title {
+	color: #5c7d7d;
+}
+
+#usefulInformation {
+	padding-bottom: 60px;
+}
+
+#usefulInformation h2 {
+	color: #5c7d7d;
+}
+
+#usefulInformation p {
+	color: #5c7d7d;
+}
+
+#presentation {
+	width: 100%;
+	margin: 0;
+}
+
+#profilePicture img {
+	width: 90%;
+	margin: 5%;
+	padding: 0;
+}
+
+#map {
+	height: 220px;
+	border: 1px solid black;
+}
+
+/* About Me */
+
+#aboutMe {
+	padding: 0;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	background: white;
+}
+
+#aboutMe h2 {
+	color: #5c7d7d;
+	margin-bottom: 30px;
+}
+
+#aboutMe img {
+	width: 100%;
+}
+
+#aboutMe p {
+	width: 100%;
+	margin: auto;
+	margin-top: 0;
+	padding: 15px;
+	color: #5c7d7d;
+}
+
+#contactInformation {
+	background-color: #059fa8;
+	padding-bottom: 60px;
+}
+
+#contactInformation h2 {
+	color: white;
+	margin-bottom: 30px;
+}
+
+/* Session */
+
+#sessionProgress {
+	padding-top: 60px;
+	padding-bottom: 60px;
+	background-color: white;
+}
+
+#sessionProgress h2 {
+	color: #5c7d7d;
+	margin-bottom: 30px;
+}
+
+#sessionProgress p {
+	width: 70%;
+	margin: auto;
+	margin-top: 15px;
+	color: #5c7d7d;
+}
+
+#sessionType {
+	padding-bottom: 60px;
+	background-image: url("images/water.jpg");
+	background-size: cover;
+	color: white;
+}
+
+#sessionType h2 {
+	color: white;
+	text-shadow: 0.1em 0.1em 0.2em grey;
+	margin-bottom: 30px;
+}
+
+#sessionType h3 {
+	background-color: white;
+	color: #059fa8;
+}
+
+#sessionType p {
+	width: 80%;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-shadow: 0.1em 0.1em 0.2em grey;
+}
+
+/* footer */
+
+footer {
+	background-color: #00484d;
+	color: white;
+	margin-top: 0;
+}
+
+footer h4 {
+	font-style: italic;
+	text-transform: uppercase;
+}
+
+footer img {
+	width: 120px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.footerColumn {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+footer a {
+	color: white;
+}
+
+footer a:hover {
+	color: white;
+}
+
+.footerRow2 {
+	background-color: #212121;
+	height: 40px;
+	line-height: 40px;
+}
